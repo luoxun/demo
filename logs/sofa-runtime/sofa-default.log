@@ -1,0 +1,69 @@
+2022-09-16 01:47:49,104 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-16 01:47:49,998 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-16 01:47:50,004 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-16 01:47:50,064 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-16 01:47:50,065 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-16 01:47:51,035 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
+2022-09-16 01:47:51,037 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
+2022-09-16 01:47:51,037 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
+2022-09-16 01:47:51,037 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-16 01:47:51,040 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
+2022-09-16 01:47:51,040 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
+2022-09-16 01:47:51,040 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-16 01:47:51,040 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
+2022-09-16 01:50:51,670 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-16 01:50:52,448 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-16 01:50:52,454 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-16 01:50:52,523 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-16 01:50:52,524 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-16 01:50:53,477 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
+2022-09-16 01:50:53,478 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
+2022-09-16 01:50:53,479 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
+2022-09-16 01:50:53,479 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-16 01:50:53,480 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
+2022-09-16 01:50:53,480 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
+2022-09-16 01:50:53,480 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-16 01:50:53,480 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
+2022-09-16 16:03:29,518 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-16 16:03:30,426 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-16 16:03:30,436 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-16 16:03:30,535 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-16 16:03:30,536 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-16 16:03:31,705 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
+2022-09-16 16:03:31,706 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
+2022-09-16 16:03:31,706 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
+2022-09-16 16:03:31,707 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-16 16:03:31,708 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
+2022-09-16 16:03:31,708 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
+2022-09-16 16:03:31,708 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-16 16:03:31,708 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
