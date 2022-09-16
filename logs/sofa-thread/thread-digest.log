@@ -28,3 +28,11 @@
 2022-09-16 16:03:41,381 INFO  SOFA-Thread-Pool-Monitor-2-thread-2 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
 2022-09-16 16:03:46,377 INFO  SOFA-Thread-Pool-Monitor-2-thread-3 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
 2022-09-16 16:03:51,377 INFO  SOFA-Thread-Pool-Monitor-2-thread-2 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
+2022-09-16 22:14:27,795 INFO  restartedMain - Thread pool 'sofa-boot-health-check' started with period: 5000 MILLISECONDS
+2022-09-16 22:14:27,796 INFO  restartedMain - Thread pool with name 'sofa-boot-health-check' registered
+2022-09-16 22:14:28,069 INFO  restartedMain - Thread pool 'sofa-boot-sofa-module-start' started with period: 30 SECONDS
+2022-09-16 22:14:28,069 INFO  restartedMain - Thread pool with name 'sofa-boot-sofa-module-start' registered
+2022-09-16 22:14:28,069 INFO  restartedMain - Thread pool 'sofa-boot-sofa-module-start' stopped.
+2022-09-16 22:14:28,069 INFO  restartedMain - Thread pool with name 'sofa-boot-sofa-module-start' unregistered
+2022-09-16 22:14:32,786 INFO  SOFA-Thread-Pool-Monitor-2-thread-1 - Thread pool 'sofa-boot-health-check' info: [0,0,1,1,0]
+2022-09-16 22:14:32,787 INFO  SOFA-Thread-Pool-Monitor-2-thread-1 - Thread pool 'sofa-boot-health-check' average static info: [0,0]
