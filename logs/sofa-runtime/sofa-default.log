@@ -1,92 +1,348 @@
-2022-09-16 01:47:49,104 INFO  restartedMain                    - SOFABoot Runtime Starting!
-2022-09-16 01:47:49,998 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
-2022-09-16 01:47:50,004 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
-2022-09-16 01:47:50,064 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
-2022-09-16 01:47:50,065 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
-2022-09-16 01:47:51,035 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
-2022-09-16 01:47:51,037 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
-2022-09-16 01:47:51,037 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
-2022-09-16 01:47:51,037 INFO  restartedMain                    - 
+2022-09-22 21:30:29,994 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:30:31,104 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:30:31,121 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:30:31,253 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:30:31,254 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:30:33,029 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:30:33,032 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:30:33,032 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:30:33,032 INFO  restartedMain                    - 
 All activated module list(0) >>>>>>>
 
 Modules that could install(0) >>>>>>>
 
-2022-09-16 01:47:51,040 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
-2022-09-16 01:47:51,040 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
-2022-09-16 01:47:51,040 INFO  restartedMain                    - 
+2022-09-22 21:30:33,038 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:30:33,039 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:30:33,039 INFO  restartedMain                    - 
 Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
 Spring context initialize failed module list(0) >>>>>>>
 
 Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
-2022-09-16 01:47:51,040 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
-2022-09-16 01:50:51,670 INFO  restartedMain                    - SOFABoot Runtime Starting!
-2022-09-16 01:50:52,448 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
-2022-09-16 01:50:52,454 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
-2022-09-16 01:50:52,523 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
-2022-09-16 01:50:52,524 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
-2022-09-16 01:50:53,477 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
-2022-09-16 01:50:53,478 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
-2022-09-16 01:50:53,479 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
-2022-09-16 01:50:53,479 INFO  restartedMain                    - 
+2022-09-22 21:30:33,039 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:31:48,384 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:31:49,437 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:31:49,450 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:31:49,548 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:31:49,549 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:31:50,281 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#2136916843
+2022-09-22 21:31:50,281 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:31:50,292 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:31:51,198 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:31:51,201 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:31:51,201 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:31:51,202 INFO  restartedMain                    - 
 All activated module list(0) >>>>>>>
 
 Modules that could install(0) >>>>>>>
 
-2022-09-16 01:50:53,480 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
-2022-09-16 01:50:53,480 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
-2022-09-16 01:50:53,480 INFO  restartedMain                    - 
+2022-09-22 21:31:51,206 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:31:51,206 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:31:51,206 INFO  restartedMain                    - 
 Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
 Spring context initialize failed module list(0) >>>>>>>
 
 Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
-2022-09-16 01:50:53,480 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
-2022-09-16 16:03:29,518 INFO  restartedMain                    - SOFABoot Runtime Starting!
-2022-09-16 16:03:30,426 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
-2022-09-16 16:03:30,436 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
-2022-09-16 16:03:30,535 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
-2022-09-16 16:03:30,536 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
-2022-09-16 16:03:31,705 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo Start +++++++++++++++++
-2022-09-16 16:03:31,706 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of demo End +++++++++++++++++
-2022-09-16 16:03:31,706 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo Start +++++++++++++++++
-2022-09-16 16:03:31,707 INFO  restartedMain                    - 
+2022-09-22 21:31:51,206 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:34:17,734 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:34:19,058 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:34:19,071 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:34:19,183 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:34:19,184 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:34:20,000 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#1559008043
+2022-09-22 21:34:20,000 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:34:20,015 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:34:21,273 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:34:21,275 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:34:21,275 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:34:21,275 INFO  restartedMain                    - 
 All activated module list(0) >>>>>>>
 
 Modules that could install(0) >>>>>>>
 
-2022-09-16 16:03:31,708 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of demo End +++++++++++++++++
-2022-09-16 16:03:31,708 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo Start +++++++++++++++++
-2022-09-16 16:03:31,708 INFO  restartedMain                    - 
+2022-09-22 21:34:21,278 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:34:21,278 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:34:21,279 INFO  restartedMain                    - 
 Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
 Spring context initialize failed module list(0) >>>>>>>
 
 Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
-2022-09-16 16:03:31,708 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of demo End +++++++++++++++++
-2022-09-16 22:14:25,743 INFO  restartedMain                    - SOFABoot Runtime Starting!
-2022-09-16 22:14:26,744 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
-2022-09-16 22:14:26,764 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
-2022-09-16 22:14:26,880 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
-2022-09-16 22:14:26,881 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
-2022-09-16 22:14:28,064 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
-2022-09-16 22:14:28,066 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
-2022-09-16 22:14:28,066 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
-2022-09-16 22:14:28,066 INFO  restartedMain                    - 
+2022-09-22 21:34:21,279 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:09,954 INFO  Thread-5                         -  >>Un-in Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:09,954 INFO  Thread-5                         -  >>Un-in Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:10,055 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:35:10,518 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:35:10,522 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:35:10,554 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:35:10,555 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:35:10,681 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#1952925988
+2022-09-22 21:35:10,682 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:10,688 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:10,927 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:35:10,927 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:10,927 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:35:10,927 INFO  restartedMain                    - 
 All activated module list(0) >>>>>>>
 
 Modules that could install(0) >>>>>>>
 
-2022-09-16 22:14:28,070 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
-2022-09-16 22:14:28,070 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
-2022-09-16 22:14:28,070 INFO  restartedMain                    - 
+2022-09-22 21:35:10,928 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:10,928 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:35:10,928 INFO  restartedMain                    - 
 Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
 Spring context initialize failed module list(0) >>>>>>>
 
 Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
 
-2022-09-16 22:14:28,070 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:10,928 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:31,050 INFO  Thread-7                         -  >>Un-in Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:31,051 INFO  Thread-7                         -  >>Un-in Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:31,225 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:35:31,747 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:35:31,753 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:35:31,778 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:35:31,779 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:35:32,223 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#983025671
+2022-09-22 21:35:32,223 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:32,227 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:32,620 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:35:32,621 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:32,621 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:35:32,621 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-22 21:35:32,621 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:32,621 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:35:32,621 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-22 21:35:32,621 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:52,740 INFO  Thread-11                        -  >>Un-in Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:52,740 INFO  Thread-11                        -  >>Un-in Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:52,829 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:35:53,313 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:35:53,318 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:35:53,347 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:35:53,348 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:35:53,512 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#1991848557
+2022-09-22 21:35:53,512 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:53,518 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:35:53,769 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:35:53,769 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:53,769 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:35:53,769 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-22 21:35:53,770 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:35:53,772 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:35:53,772 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-22 21:35:53,772 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:36:25,321 INFO  Thread-15                        -  >>Un-in Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:36:25,321 INFO  Thread-15                        -  >>Un-in Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:36:25,568 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:36:25,973 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:36:26,060 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:36:26,088 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:36:26,089 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:36:26,297 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#1686781286
+2022-09-22 21:36:26,297 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:36:26,310 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:36:26,674 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:36:26,674 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:36:26,676 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:36:26,676 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-22 21:36:26,676 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:36:26,676 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:36:26,677 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-22 21:36:26,677 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:36:30,993 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:36:32,279 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:36:32,293 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:36:32,391 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:36:32,392 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:36:33,071 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#1790466056
+2022-09-22 21:36:33,071 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:36:33,080 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:36:33,834 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:36:33,836 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:36:33,837 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:36:33,837 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-22 21:36:33,841 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:36:33,841 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:36:33,841 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-22 21:36:33,841 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:37:27,596 INFO  Thread-5                         -  >>Un-in Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:37:27,596 INFO  Thread-5                         -  >>Un-in Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:37:30,118 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:37:32,500 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:37:33,522 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:37:33,535 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:37:33,632 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:37:33,633 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:37:34,701 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#1666934905
+2022-09-22 21:37:34,701 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:37:34,709 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:37:35,436 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:37:35,438 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:37:35,438 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:37:35,438 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-22 21:37:35,442 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:37:35,442 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:37:35,442 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-22 21:37:35,442 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:37:49,169 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:37:50,319 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:37:50,333 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:37:50,424 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:37:50,425 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:37:51,323 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#1790466056
+2022-09-22 21:37:51,324 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:37:51,334 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:37:52,571 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:37:52,573 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:37:52,573 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:37:52,573 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-22 21:37:52,576 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:37:52,576 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:37:52,576 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-22 21:37:52,576 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 21:38:01,880 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 21:38:03,507 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:38:03,524 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:38:03,622 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 21:38:03,623 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 21:38:04,423 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#1790466056
+2022-09-22 21:38:04,423 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 21:38:04,434 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 21:38:05,101 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:38:05,103 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 21:38:05,103 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:38:05,104 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-22 21:38:05,106 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 21:38:05,106 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 21:38:05,106 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-22 21:38:05,106 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 22:12:40,037 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 22:12:40,970 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 22:12:40,984 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 22:12:41,081 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 22:12:41,082 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 22:12:41,695 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#1790466056
+2022-09-22 22:12:41,695 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 22:12:41,703 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 22:12:42,254 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 22:12:42,256 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 22:12:42,256 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 22:12:42,256 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-22 22:12:42,258 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 22:12:42,258 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 22:12:42,258 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-22 22:12:42,258 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-22 22:13:04,654 INFO  Thread-5                         -  >>Un-in Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 22:13:04,654 INFO  Thread-5                         -  >>Un-in Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 22:13:04,808 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-22 22:13:05,360 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 22:13:05,364 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 22:13:05,382 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-22 22:13:05,383 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-22 22:13:05,477 INFO  restartedMain                    - Registering component: reference:com.example.facade.SampleJvmSrv:#536507838
+2022-09-22 22:13:05,478 INFO  restartedMain                    -  >>In Binding [jvm] Begins - com.example.facade.SampleJvmSrv.
+2022-09-22 22:13:05,484 INFO  restartedMain                    -  >>In Binding [jvm] Ends - com.example.facade.SampleJvmSrv.
+2022-09-22 22:13:05,730 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-22 22:13:05,730 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-22 22:13:05,731 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-22 22:13:05,731 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-22 22:13:05,737 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-22 22:13:05,737 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-22 22:13:05,737 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-22 22:13:05,737 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++

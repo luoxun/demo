@@ -1,102 +1,409 @@
-2022-09-16 01:47:50,842 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
-2022-09-16 01:47:51,071 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
-2022-09-16 01:47:51,073 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
-2022-09-16 01:47:51,074 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
-2022-09-16 01:47:51,075 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
-2022-09-16 01:47:51,075 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
-2022-09-16 01:47:51,076 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
-2022-09-16 01:47:51,077 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
-2022-09-16 01:47:51,077 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
-2022-09-16 01:47:51,077 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
-2022-09-16 01:47:51,077 INFO  restartedMain                    - SOFABoot HealthChecker readiness check result: success.
-2022-09-16 01:47:51,077 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
-2022-09-16 01:47:51,077 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
-2022-09-16 01:47:51,078 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
-2022-09-16 01:47:51,079 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
-2022-09-16 01:47:51,079 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
-2022-09-16 01:47:51,079 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
-2022-09-16 01:47:51,079 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
-2022-09-16 01:47:51,080 INFO  restartedMain                    - Invoking all readiness check callbacks...
-2022-09-16 01:47:51,080 INFO  restartedMain                    - Begin ReadinessCheckCallback readiness check
-2022-09-16 01:47:51,080 INFO  restartedMain                    - ReadinessCheckCallback readiness check result: success.
-2022-09-16 01:47:51,080 INFO  restartedMain                    - Readiness check result: success
-2022-09-16 01:47:51,428 INFO  RMI TCP Connection(3)-127.0.0.1  - Begin SOFABoot HealthChecker liveness check.
-2022-09-16 01:47:51,428 INFO  RMI TCP Connection(3)-127.0.0.1  - SOFABoot HealthChecker liveness check 2 item: SOFABoot-Modules,SOFABoot-Components.
-2022-09-16 01:47:51,429 INFO  RMI TCP Connection(3)-127.0.0.1  - HealthChecker[sofaModuleHealthChecker] liveness check start.
-2022-09-16 01:47:51,429 INFO  RMI TCP Connection(3)-127.0.0.1  - HealthChecker[sofaModuleHealthChecker] liveness check success with 0 retry.
-2022-09-16 01:47:51,429 INFO  RMI TCP Connection(3)-127.0.0.1  - HealthChecker[sofaComponentHealthChecker] liveness check start.
-2022-09-16 01:47:51,429 INFO  RMI TCP Connection(3)-127.0.0.1  - HealthChecker[sofaComponentHealthChecker] liveness check success with 0 retry.
-2022-09-16 01:47:51,429 INFO  RMI TCP Connection(3)-127.0.0.1  - SOFABoot HealthChecker liveness check result: success.
-2022-09-16 01:50:53,282 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
-2022-09-16 01:50:53,512 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
-2022-09-16 01:50:53,515 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
-2022-09-16 01:50:53,516 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
-2022-09-16 01:50:53,517 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
-2022-09-16 01:50:53,517 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
-2022-09-16 01:50:53,518 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
-2022-09-16 01:50:53,519 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
-2022-09-16 01:50:53,520 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
-2022-09-16 01:50:53,520 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
-2022-09-16 01:50:53,520 INFO  restartedMain                    - SOFABoot HealthChecker readiness check result: success.
-2022-09-16 01:50:53,520 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
-2022-09-16 01:50:53,521 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
-2022-09-16 01:50:53,521 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
-2022-09-16 01:50:53,522 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
-2022-09-16 01:50:53,522 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
-2022-09-16 01:50:53,522 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
-2022-09-16 01:50:53,523 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
-2022-09-16 01:50:53,523 INFO  restartedMain                    - Invoking all readiness check callbacks...
-2022-09-16 01:50:53,523 INFO  restartedMain                    - Begin ReadinessCheckCallback readiness check
-2022-09-16 01:50:53,524 INFO  restartedMain                    - ReadinessCheckCallback readiness check result: success.
-2022-09-16 01:50:53,524 INFO  restartedMain                    - Readiness check result: success
-2022-09-16 01:50:53,719 INFO  RMI TCP Connection(1)-127.0.0.1  - Begin SOFABoot HealthChecker liveness check.
-2022-09-16 01:50:53,719 INFO  RMI TCP Connection(1)-127.0.0.1  - SOFABoot HealthChecker liveness check 2 item: SOFABoot-Modules,SOFABoot-Components.
-2022-09-16 01:50:53,719 INFO  RMI TCP Connection(1)-127.0.0.1  - HealthChecker[sofaModuleHealthChecker] liveness check start.
-2022-09-16 01:50:53,719 INFO  RMI TCP Connection(1)-127.0.0.1  - HealthChecker[sofaModuleHealthChecker] liveness check success with 0 retry.
-2022-09-16 01:50:53,719 INFO  RMI TCP Connection(1)-127.0.0.1  - HealthChecker[sofaComponentHealthChecker] liveness check start.
-2022-09-16 01:50:53,720 INFO  RMI TCP Connection(1)-127.0.0.1  - HealthChecker[sofaComponentHealthChecker] liveness check success with 0 retry.
-2022-09-16 01:50:53,720 INFO  RMI TCP Connection(1)-127.0.0.1  - SOFABoot HealthChecker liveness check result: success.
-2022-09-16 16:03:31,388 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
-2022-09-16 16:03:31,745 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
-2022-09-16 16:03:31,748 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
-2022-09-16 16:03:31,749 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
-2022-09-16 16:03:31,749 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
-2022-09-16 16:03:31,750 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
-2022-09-16 16:03:31,751 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
-2022-09-16 16:03:31,752 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
-2022-09-16 16:03:31,752 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
-2022-09-16 16:03:31,752 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
-2022-09-16 16:03:31,753 INFO  restartedMain                    - SOFABoot HealthChecker readiness check result: success.
-2022-09-16 16:03:31,753 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
-2022-09-16 16:03:31,753 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
-2022-09-16 16:03:31,754 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
-2022-09-16 16:03:31,755 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
-2022-09-16 16:03:31,755 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
-2022-09-16 16:03:31,757 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
-2022-09-16 16:03:31,757 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
-2022-09-16 16:03:31,758 INFO  restartedMain                    - Invoking all readiness check callbacks...
-2022-09-16 16:03:31,758 INFO  restartedMain                    - Begin ReadinessCheckCallback readiness check
-2022-09-16 16:03:31,758 INFO  restartedMain                    - ReadinessCheckCallback readiness check result: success.
-2022-09-16 16:03:31,758 INFO  restartedMain                    - Readiness check result: success
-2022-09-16 22:14:27,797 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
-2022-09-16 22:14:28,113 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
-2022-09-16 22:14:28,115 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
-2022-09-16 22:14:28,115 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
-2022-09-16 22:14:28,116 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
-2022-09-16 22:14:28,116 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
-2022-09-16 22:14:28,117 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
-2022-09-16 22:14:28,118 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
-2022-09-16 22:14:28,118 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
-2022-09-16 22:14:28,118 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
-2022-09-16 22:14:28,119 INFO  restartedMain                    - SOFABoot HealthChecker readiness check result: success.
-2022-09-16 22:14:28,119 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
-2022-09-16 22:14:28,119 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
-2022-09-16 22:14:28,119 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
-2022-09-16 22:14:28,120 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
-2022-09-16 22:14:28,120 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
-2022-09-16 22:14:28,120 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
-2022-09-16 22:14:28,120 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
-2022-09-16 22:14:28,121 INFO  restartedMain                    - Invoking all readiness check callbacks...
-2022-09-16 22:14:28,121 INFO  restartedMain                    - Begin ReadinessCheckCallback readiness check
-2022-09-16 22:14:28,121 INFO  restartedMain                    - ReadinessCheckCallback readiness check result: success.
-2022-09-16 22:14:28,121 INFO  restartedMain                    - Readiness check result: success
+2022-09-22 21:30:32,651 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:30:33,211 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:30:33,214 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:30:33,215 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:30:33,215 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:30:33,216 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:30:33,216 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:30:33,220 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:30:33,220 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:30:33,225 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:30:33,225 INFO  restartedMain                    - SOFABoot HealthChecker readiness check result: success.
+2022-09-22 21:30:33,227 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
+2022-09-22 21:30:33,227 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-09-22 21:30:33,228 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-09-22 21:30:33,231 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-09-22 21:30:33,231 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
+2022-09-22 21:30:33,241 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
+2022-09-22 21:30:33,241 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
+2022-09-22 21:30:33,241 INFO  restartedMain                    - Invoking all readiness check callbacks...
+2022-09-22 21:30:33,241 INFO  restartedMain                    - Begin ReadinessCheckCallback readiness check
+2022-09-22 21:30:33,241 INFO  restartedMain                    - ReadinessCheckCallback readiness check result: success.
+2022-09-22 21:30:33,242 INFO  restartedMain                    - Readiness check result: success
+2022-09-22 21:31:50,837 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:31:51,264 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:31:51,266 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:31:51,267 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:31:51,267 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:31:51,269 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:31:51,270 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:31:51,271 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:31:51,271 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:31:51,285 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:31:52,290 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:31:53,291 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:31:54,295 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 21:31:55,296 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 21:31:56,298 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 21:31:57,299 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 21:31:58,303 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 21:31:59,308 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 21:32:00,308 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 21:32:01,310 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 21:32:02,314 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 21:32:03,319 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2022-09-22 21:32:04,322 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2022-09-22 21:32:05,327 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2022-09-22 21:32:06,329 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2022-09-22 21:32:07,332 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2022-09-22 21:32:08,333 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2022-09-22 21:32:09,338 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2022-09-22 21:32:10,339 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2022-09-22 21:32:11,352 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#2136916843":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-22 21:32:11,354 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-22 21:32:11,356 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
+2022-09-22 21:32:11,356 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-09-22 21:32:11,356 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-09-22 21:32:11,358 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-09-22 21:32:11,359 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
+2022-09-22 21:32:11,359 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
+2022-09-22 21:32:11,359 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
+2022-09-22 21:32:11,359 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
+2022-09-22 21:34:20,364 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:34:21,334 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:34:21,337 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:34:21,338 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:34:21,340 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:34:21,341 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:34:21,343 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:34:21,344 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:34:21,345 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:34:21,357 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:34:22,361 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:34:23,364 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:34:24,368 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 21:34:25,371 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 21:34:26,374 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 21:34:27,378 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 21:34:28,381 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 21:34:29,382 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 21:34:30,385 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 21:34:31,390 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 21:34:32,391 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 21:34:33,396 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2022-09-22 21:34:34,402 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2022-09-22 21:34:35,403 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2022-09-22 21:34:36,408 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2022-09-22 21:34:37,410 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2022-09-22 21:34:38,413 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2022-09-22 21:34:39,414 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2022-09-22 21:34:40,415 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2022-09-22 21:34:41,423 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#1559008043":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-22 21:34:41,423 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-22 21:34:41,424 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
+2022-09-22 21:34:41,424 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-09-22 21:34:41,424 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-09-22 21:34:41,425 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-09-22 21:34:41,426 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
+2022-09-22 21:34:41,426 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
+2022-09-22 21:34:41,426 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
+2022-09-22 21:34:41,426 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
+2022-09-22 21:35:10,795 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:35:10,963 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:35:10,965 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:35:10,966 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:35:10,966 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:35:10,966 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:35:10,966 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:35:10,967 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:35:10,967 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:35:10,973 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:35:11,978 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:35:12,978 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:35:13,979 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 21:35:14,982 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 21:35:15,987 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 21:35:16,988 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 21:35:17,994 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 21:35:18,998 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 21:35:20,001 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 21:35:21,002 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 21:35:22,002 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 21:35:23,004 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2022-09-22 21:35:24,004 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2022-09-22 21:35:25,005 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2022-09-22 21:35:26,009 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2022-09-22 21:35:27,029 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2022-09-22 21:35:28,030 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2022-09-22 21:35:29,031 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2022-09-22 21:35:30,035 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2022-09-22 21:35:31,037 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#1952925988":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-22 21:35:31,037 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-22 21:35:31,037 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
+2022-09-22 21:35:31,037 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-09-22 21:35:31,037 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-09-22 21:35:31,038 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-09-22 21:35:31,038 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
+2022-09-22 21:35:31,038 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
+2022-09-22 21:35:31,038 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
+2022-09-22 21:35:31,038 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
+2022-09-22 21:35:32,388 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:35:32,641 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:35:32,642 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:35:32,642 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:35:32,642 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:35:32,642 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:35:32,642 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:35:32,643 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:35:32,643 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:35:32,653 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:35:33,658 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:35:34,660 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:35:35,665 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 21:35:36,670 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 21:35:37,675 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 21:35:38,680 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 21:35:39,681 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 21:35:40,684 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 21:35:41,685 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 21:35:42,690 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 21:35:43,694 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 21:35:44,697 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2022-09-22 21:35:45,702 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2022-09-22 21:35:46,708 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2022-09-22 21:35:47,713 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2022-09-22 21:35:48,715 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2022-09-22 21:35:49,720 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2022-09-22 21:35:50,723 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2022-09-22 21:35:51,724 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2022-09-22 21:35:52,727 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#983025671":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-22 21:35:52,727 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-22 21:35:52,727 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
+2022-09-22 21:35:52,727 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-09-22 21:35:52,728 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-09-22 21:35:52,729 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-09-22 21:35:52,729 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
+2022-09-22 21:35:52,729 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
+2022-09-22 21:35:52,729 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
+2022-09-22 21:35:52,729 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
+2022-09-22 21:35:53,611 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:35:53,861 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:35:53,862 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:35:53,862 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:35:53,863 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:35:53,863 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:35:53,863 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:35:53,893 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:35:53,893 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:35:53,910 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:35:54,911 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:35:55,916 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:35:56,933 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 21:35:57,939 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 21:35:58,942 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 21:35:59,943 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 21:36:00,947 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 21:36:01,950 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 21:36:02,952 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 21:36:03,955 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 21:36:04,960 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 21:36:05,965 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2022-09-22 21:36:06,970 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2022-09-22 21:36:07,973 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2022-09-22 21:36:08,976 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2022-09-22 21:36:09,978 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2022-09-22 21:36:10,980 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2022-09-22 21:36:11,984 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2022-09-22 21:36:12,985 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2022-09-22 21:36:13,986 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#1991848557":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-22 21:36:13,986 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-22 21:36:13,987 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
+2022-09-22 21:36:13,987 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-09-22 21:36:13,987 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-09-22 21:36:13,987 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-09-22 21:36:13,987 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
+2022-09-22 21:36:13,987 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
+2022-09-22 21:36:13,987 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
+2022-09-22 21:36:13,987 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
+2022-09-22 21:36:26,428 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:36:26,703 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:36:26,704 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:36:26,704 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:36:26,705 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:36:26,705 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:36:26,705 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:36:26,705 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:36:26,705 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:36:26,716 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:36:27,718 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:36:28,719 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:36:33,497 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:36:33,926 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:36:33,934 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:36:33,937 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:36:33,947 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:36:33,948 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:36:33,949 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:36:33,957 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:36:33,957 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:36:33,963 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:36:34,967 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:36:35,969 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:36:36,969 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 21:36:37,971 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 21:36:38,972 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 21:36:39,974 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 21:36:40,979 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 21:36:41,980 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 21:36:42,985 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 21:36:43,990 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 21:36:44,993 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 21:36:45,997 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2022-09-22 21:36:47,003 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2022-09-22 21:36:48,004 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2022-09-22 21:36:49,007 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2022-09-22 21:36:50,011 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2022-09-22 21:36:51,013 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2022-09-22 21:36:52,015 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2022-09-22 21:36:53,021 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2022-09-22 21:36:54,032 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#1790466056":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-22 21:36:54,032 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-22 21:36:54,033 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
+2022-09-22 21:36:54,033 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-09-22 21:36:54,033 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-09-22 21:36:54,034 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-09-22 21:36:54,034 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
+2022-09-22 21:36:54,034 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
+2022-09-22 21:36:54,034 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
+2022-09-22 21:36:54,034 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
+2022-09-22 21:37:35,025 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:37:35,505 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:37:35,508 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:37:35,508 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:37:35,508 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:37:35,509 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:37:35,510 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:37:35,511 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:37:35,512 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:37:35,516 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:37:36,519 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:37:37,520 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:37:38,523 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 21:37:39,525 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 21:37:40,529 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 21:37:41,533 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 21:37:42,536 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 21:37:43,537 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 21:37:44,543 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 21:37:45,549 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 21:37:46,555 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 21:37:51,834 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:37:52,667 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:37:52,755 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:37:52,756 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:37:52,756 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:37:52,757 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:37:52,758 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:37:52,760 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:37:52,760 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:37:52,773 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:37:53,778 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:37:54,783 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:37:55,785 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 21:37:56,785 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 21:37:57,788 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 21:37:58,792 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 21:37:59,797 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 21:38:04,749 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 21:38:05,143 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 21:38:05,145 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 21:38:05,146 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 21:38:05,146 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 21:38:05,148 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 21:38:05,149 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 21:38:05,150 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 21:38:05,151 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 21:38:05,153 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 21:38:06,159 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 21:38:07,162 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 21:38:08,167 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 21:38:09,172 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 21:38:10,174 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 21:38:11,179 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 21:38:12,184 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 21:38:13,188 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 21:38:14,192 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 21:38:15,193 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 21:38:16,194 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 21:38:17,195 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2022-09-22 21:38:18,198 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2022-09-22 21:38:19,199 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2022-09-22 21:38:20,199 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2022-09-22 22:12:41,972 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 22:12:42,337 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 22:12:42,341 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 22:12:42,341 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 22:12:42,342 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 22:12:42,343 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 22:12:42,343 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 22:12:42,347 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 22:12:42,347 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 22:12:42,350 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 22:12:43,355 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 22:12:44,360 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 22:12:45,365 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 22:12:46,369 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 22:12:47,370 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 22:12:48,371 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 22:12:49,377 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 22:12:50,381 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 22:12:51,383 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 22:12:52,384 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 22:12:53,390 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 22:12:54,391 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2022-09-22 22:12:55,393 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2022-09-22 22:12:56,396 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2022-09-22 22:12:57,400 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2022-09-22 22:12:58,404 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2022-09-22 22:12:59,404 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2022-09-22 22:13:00,418 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2022-09-22 22:13:01,422 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2022-09-22 22:13:02,431 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#1790466056":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-22 22:13:02,433 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-22 22:13:02,433 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
+2022-09-22 22:13:02,434 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-09-22 22:13:02,434 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-09-22 22:13:02,435 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-09-22 22:13:02,436 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
+2022-09-22 22:13:02,436 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
+2022-09-22 22:13:02,436 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
+2022-09-22 22:13:02,436 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
+2022-09-22 22:13:05,577 INFO  restartedMain                    - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2022-09-22 22:13:05,796 INFO  restartedMain                    - Found 2 HealthChecker implementation:sofaModuleHealthChecker,sofaComponentHealthChecker
+2022-09-22 22:13:05,797 INFO  restartedMain                    - Found 2 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor
+2022-09-22 22:13:05,797 INFO  restartedMain                    - Found 0 ReadinessCheckCallback implementation: 
+2022-09-22 22:13:05,804 INFO  restartedMain                    - Begin SOFABoot HealthChecker readiness check.
+2022-09-22 22:13:05,804 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: SOFABoot-Modules,SOFABoot-Components.
+2022-09-22 22:13:05,805 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check start.
+2022-09-22 22:13:05,806 INFO  restartedMain                    - HealthChecker[sofaModuleHealthChecker] readiness check success with 0 retry.
+2022-09-22 22:13:05,806 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2022-09-22 22:13:05,817 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 0 retry.
+2022-09-22 22:13:06,828 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 1 retry.
+2022-09-22 22:13:07,833 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 2 retry.
+2022-09-22 22:13:08,835 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 3 retry.
+2022-09-22 22:13:09,840 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 4 retry.
+2022-09-22 22:13:10,843 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 5 retry.
+2022-09-22 22:13:11,849 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 6 retry.
+2022-09-22 22:13:12,852 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 7 retry.
+2022-09-22 22:13:13,859 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 8 retry.
+2022-09-22 22:13:14,861 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 9 retry.
+2022-09-22 22:13:15,867 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 10 retry.
+2022-09-22 22:13:16,873 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 11 retry.
+2022-09-22 22:13:17,875 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 12 retry.
+2022-09-22 22:13:18,877 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 13 retry.
+2022-09-22 22:13:19,882 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 14 retry.
+2022-09-22 22:13:20,888 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 15 retry.
+2022-09-22 22:13:21,892 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 16 retry.
+2022-09-22 22:13:22,895 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 17 retry.
+2022-09-22 22:13:23,930 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 18 retry.
+2022-09-22 22:13:24,934 INFO  restartedMain                    - HealthChecker[sofaComponentHealthChecker] readiness check fail with 19 retry.
+2022-09-22 22:13:25,936 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#536507838":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-22 22:13:25,937 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-22 22:13:25,937 INFO  restartedMain                    - Begin SOFABoot HealthIndicator readiness check.
+2022-09-22 22:13:25,938 INFO  restartedMain                    - SOFABoot HealthChecker readiness check 2 item: diskSpaceHealthIndicator,pingHealthContributor.
+2022-09-22 22:13:25,938 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2022-09-22 22:13:25,938 INFO  restartedMain                    - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2022-09-22 22:13:25,938 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check start.
+2022-09-22 22:13:25,938 INFO  restartedMain                    - HealthIndicator[pingHealthContributor] readiness check success.
+2022-09-22 22:13:25,938 INFO  restartedMain                    - SOFABoot HealthIndicator readiness check result: success.
+2022-09-22 22:13:25,938 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail

@@ -1,5 +1,7 @@
-// package com.example.facade;
+package com.example.facade;
 
-// public interface SampleJvmSrv {
-// String message();
-// }
+
+public interface SampleJvmSrv {
+
+    String message();
+}

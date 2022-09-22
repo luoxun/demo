@@ -1,0 +1,46 @@
+2022-09-17 13:14:12,116 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-17 13:14:13,220 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-17 13:14:13,231 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-17 13:14:13,337 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-17 13:14:13,338 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-17 13:14:14,613 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-17 13:14:14,615 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-17 13:14:14,615 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-17 13:14:14,615 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-17 13:14:14,617 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-17 13:14:14,617 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-17 13:14:14,617 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-17 13:14:14,617 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
+2022-09-17 14:00:28,373 INFO  restartedMain                    - SOFABoot Runtime Starting!
+2022-09-17 14:00:29,307 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-17 14:00:29,317 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-17 14:00:29,414 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.context.internalConfigurationPropertiesBinder
+2022-09-17 14:00:29,416 WARN  restartedMain                    - Bean class type cant be resolved from bean of org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2022-09-17 14:00:30,548 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo Start +++++++++++++++++
+2022-09-17 14:00:30,550 INFO  restartedMain                    - ++++++++++++++++++ ModelCreatingStage of xun_demo End +++++++++++++++++
+2022-09-17 14:00:30,550 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo Start +++++++++++++++++
+2022-09-17 14:00:30,550 INFO  restartedMain                    - 
+All activated module list(0) >>>>>>>
+
+Modules that could install(0) >>>>>>>
+
+2022-09-17 14:00:30,553 INFO  restartedMain                    - ++++++++++++++++++ SpringContextInstallStage of xun_demo End +++++++++++++++++
+2022-09-17 14:00:30,553 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo Start +++++++++++++++++
+2022-09-17 14:00:30,553 INFO  restartedMain                    - 
+Spring context initialize success module list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+Spring context initialize failed module list(0) >>>>>>>
+
+Spring bean load time cost list(0) >>>>>>> [totalTime = 0 ms, realTime = 0 ms]
+
+2022-09-17 14:00:30,553 INFO  restartedMain                    - ++++++++++++++++++ ModuleLogOutputStage of xun_demo End +++++++++++++++++
