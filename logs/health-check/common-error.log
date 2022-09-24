@@ -22,3 +22,9 @@
 2022-09-22 22:13:25,936 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#536507838":"[jvm,can not find corresponding jvm service]"}; strict mode:true
 2022-09-22 22:13:25,937 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
 2022-09-22 22:13:25,938 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
+2022-09-23 16:11:02,788 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#1732369078":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-23 16:11:02,789 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-23 16:11:02,791 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
+2022-09-23 22:54:08,303 ERROR restartedMain                    - SOFA-BOOT-01-23001: HealthChecker[sofaComponentHealthChecker] readiness check fail with 20 retry; fail details:{"reference:com.example.facade.SampleJvmSrv:#814461792":"[jvm,can not find corresponding jvm service]"}; strict mode:true
+2022-09-23 22:54:08,304 ERROR restartedMain                    - SOFA-BOOT-01-23000: SOFABoot HealthChecker readiness check result: failed
+2022-09-23 22:54:08,306 ERROR restartedMain                    - SOFA-BOOT-01-20000: Readiness check result: fail
